@@ -48,7 +48,7 @@ body > header#main-si-header > h1 {
 	padding-bottom: 50px;
 }
 body > #si-tab-holder {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
