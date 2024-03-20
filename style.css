@@ -47,42 +47,38 @@ body > header#main-si-header > h1 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-body > header#main-si-header > #si-tab-holder {
+body > #si-tab-holder {
+	position: flex;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: flex-end;
+	justify-content: flex-end;
+	align-items: center;
 	align-content: flex-end;
-	position: sticky;
-	top: 28px;
-	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-color: var(--dark-theme);
 }
 
 #si-tab-holder > si-tab {
-	background-color: var(--dark-theme);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border: 2px double black;
-	width: 100px;
+	background-color: transparent;
+	border: none;
+	width: auto;
 	padding: 5px;
-	flex: 1 1 0;
 	box-sizing: content-box;
-	min-height: 21px;
 	height: 100%;
 	cursor: pointer;
+	display: inline-block;
 }
 
-
 #si-tab-holder > si-tab.active {
-	background-color: var(--accent-theme);
 	font-weight: bold;
 	cursor: default;
 }
 
 #si-tab-holder > si-tab:not(.active):hover {
-	background-color: var(--light-theme);
+	text-decoration: underline;
 }
 
 #main-si-content-section {
