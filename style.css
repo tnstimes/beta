@@ -53,6 +53,7 @@ body > #si-tab-holder {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 99999999; /* position above other elements */
 	min-height: 50px;
 	display: flex;
 	flex-direction: row;
