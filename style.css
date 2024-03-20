@@ -48,16 +48,17 @@ body > header#main-si-header > h1 {
 	padding-bottom: 50px;
 }
 body > #si-tab-holder {
-	position: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
+	min-height: 50px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: center;
-	align-content: flex-end;
-	top: 0;
-	left: 0;
+	align-content: center;
 	background-color: var(--dark-theme);
 }
 
