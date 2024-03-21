@@ -36,19 +36,19 @@ a {
 	color: blue;
 }
 
-body > header#main-si-header {
+header#main-si-header {
 	width: 100%;
 	background-color: var(--light-theme);
 	position: relative;
 }
 
 
-body > header#main-si-header > h1 {
+header#main-si-header > h1 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0 !important;
 }
-body > #si-tab-holder {
+#si-tab-holder {
 	position: sticky;
 	top: 0;
 	left: 0;
